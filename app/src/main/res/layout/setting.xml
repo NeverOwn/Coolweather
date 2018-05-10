@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioButton
+        android:id="@+id/donnotupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不更新"/>
+    <RadioButton
+        android:id="@+id/twhours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每12小时更新"/>
+    <RadioButton
+        android:id="@+id/tfhours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每24小时更新"/>
+</RadioGroup>
+
+</LinearLayout>
